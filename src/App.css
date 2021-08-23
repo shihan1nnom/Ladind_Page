@@ -9,12 +9,17 @@
 }
 
 .Encabezado {
-  background: black;
+  background: inherit;
   color: inherit;
-  margin: 20px;
-  padding-top: 10px;
-  border-radius: 10px 20px;
-  box-shadow: 0 2px 8px red;
+}
+
+.Vista-A {
+  background-image: url('./imagenes/fondo_69.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: auto;
+  color: white;
+  height: auto;
 }
 
 .Contenido {
@@ -43,10 +48,15 @@
 }
 
 .Carrusel {
-  height: 400px;
+  height: auto;
   color: #fff;
   line-height: 160px;
   text-align: center;
+  margin: 50px;
+}
+
+.Imagen-A {
+  height: 70vh;
 }
 
 .PiePagina {
